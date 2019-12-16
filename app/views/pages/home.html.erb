@@ -1,43 +1,48 @@
 
 <div class="container">
-  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <%= link_to "#", class: "navbar-brand" do %>
-      <h4>Johnny Girault</h4>
-    <% end %>
+  <div class="row">
+    <div class="col">
+      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+        <%= link_to "#", class: "navbar-brand" do %>
+          <h4>Johnny Girault</h4>
+        <% end %>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto nav nav-pills nav-fill">
-        <li class="nav-item-presentation">
-          <%= link_to "PRÉSENTATION", "#", class: "nav-link" %>
-        </li>
-        <li class="nav-item-parcours">
-          <%= link_to "PARCOURS", "#", class: "nav-link" %>
-        </li>
-        <li class="nav-item-portofolio">
-          <%= link_to "PORTFOLIO", "#", class: "nav-link" %>
-        </li>
-        <li class="nav-item-contact">
-          <%= link_to "CONTACT", "#", class: "nav-link" %>
-        </li>
-        <li class="nav-item dropdown">
-          <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "Action", "#", class: "dropdown-item" %>
-            <%= link_to "Another action", "#", class: "dropdown-item" %>
-          </div>
-        </li>
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto nav nav-pills nav-fill">
+            <li class="nav-item-presentation">
+              <%= link_to "PRÉSENTATION", "#", class: "nav-link" %>
+            </li>
+            <li class="nav-item-parcours">
+              <%= link_to "PARCOURS", "#", class: "nav-link" %>
+            </li>
+            <li class="nav-item-portofolio">
+              <%= link_to "PORTFOLIO", "#", class: "nav-link" %>
+            </li>
+            <li class="nav-item-contact">
+              <%= link_to "CONTACT", "#", class: "nav-link" %>
+            </li>
+            <li class="nav-item dropdown">
+              <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <%= link_to "Action", "#", class: "dropdown-item" %>
+                <%= link_to "Another action", "#", class: "dropdown-item" %>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div>
+        <%= image_tag "header-bg.jpg", class: "img-fluid", id: "header-bg-id" %>
+      </div>
+      <h2>test</h2>
+      <div class="trait"></div>
     </div>
-
   </div>
-
-  <div>
-    <%= image_tag "header-bg.jpg", class: "img-fluid", id: "header-bg-id" %>
-  </div>
-
 </div>
