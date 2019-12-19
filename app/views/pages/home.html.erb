@@ -14,7 +14,7 @@
             <%= link_to "PRÉSENTATION", "#presentation", class: "nav-link" %>
           </li>
           <li class="nav-item-parcours">
-            <%= link_to "PARCOURS", "#", class: "nav-link" %>
+            <%= link_to "COMPÉTENCE-WEB", "#competenceweb", class: "nav-link" %>
           </li>
           <li class="nav-item-portofolio">
             <%= link_to "PORTFOLIO", "#", class: "nav-link" %>
@@ -38,6 +38,11 @@
         <p>Developpeur Full Stack.</p>
       </div>
     </div>
+    <div class="flex-item h2-paragraphe" id="presentation">
+      présentation
+    </div>
+    <div class="trait">
+    </div>
 
     <div class="conteneur">
       <div class="element">
@@ -52,14 +57,25 @@
               <span id="banner-typed-text"></span>
             </p>
           </div>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="flex-item h2-paragraphe" id="presentation">
-      présentation
-    </div>
-    <div class="trait">
+        <div class="element">
+          <div class="flex-item h2-paragraphe" id="competenceweb">
+            compétence-web
+          </div>
+          <div class="trait">
+          </div>
+          <div class="competence-card">
+            <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <%= image_tag "johnny_id.jpg" %>
+          </div>
+        </div>
+
     </div>
   </div>
 </div>

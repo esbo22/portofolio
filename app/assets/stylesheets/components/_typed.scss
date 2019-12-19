@@ -11,6 +11,26 @@ a {
   // border-bottom: solid 2px;
 }
 
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .element:nth-child(1)
+  {
+    order: 3;
+  }
+  .element:nth-child(2)
+  {
+    order: 2;
+  }
+  .element:nth-child(1)
+  {
+    order: 1;
+  }
+
 @media (min-width: 375px) {
   body {
   //   background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440);
@@ -20,23 +40,76 @@ a {
     // min-height: 100vh;
   }
 
-  .conteneur {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-
-  }
   .content {
     // width: 500px;
     min-width: 375px;
     max-width: 500px;
     height: 300px;
+    // position: absolute;
+    // top: 127%;
+    // left: 50%;
+    transform: translate(0%, 7%);
+    // -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #333;
+    padding: 45px 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+  }
+
+  .browser-bar {
+    background: #f9f9f3;
     position: absolute;
-    top: 127%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .button {
+    display: inline-block;
+    float: left;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+
+  .close {
+    background: #fc635d;
+  }
+
+  .min {
+    background: #fdbc40;
+  }
+
+  .max {
+    background: #34c84a;
+  }
+}
+
+@media (min-width: 500px) {
+  body {
+  //   background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440);
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+    // min-height: 100vh;
+  }
+
+  .content {
+    // width: 500px;
+    width: 500px;
+    height: 300px;
+    // position: absolute;
+    // top: 127%;
+    // left: 50%;
+    transform: translate(0%, 7%);
+    // -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: #333;
     padding: 45px 20px 20px;
