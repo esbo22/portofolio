@@ -11,17 +11,26 @@ a {
   // border-bottom: solid 2px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 375px) {
   body {
   //   background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?dpr=2&fit=crop&fm=jpg&h=960&ixlib=rb-0.3.5&q=50&w=1440);
   //   background-size: cover;
   //   background-repeat: no-repeat;
   //   background-position: center;
-    min-height: 100vh;
+    // min-height: 100vh;
   }
 
+  .conteneur {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
   .content {
-    width: 500px;
+    // width: 500px;
+    min-width: 375px;
+    max-width: 500px;
     height: 300px;
     position: absolute;
     top: 127%;
@@ -34,6 +43,7 @@ a {
     box-sizing: border-box;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     border-radius: 5px 5px 0 0;
+    margin: auto;
   }
 
   .browser-bar {
