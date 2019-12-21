@@ -17,10 +17,10 @@
             <%= link_to "COMPÉTENCE-WEB", "#competenceweb", class: "nav-link" %>
           </li>
           <li class="nav-item-portofolio">
-            <%= link_to "PORTFOLIO", "#", class: "nav-link" %>
+            <%= link_to "COMPÉTENCE-INFORMATIQUE", "#competenceinfo", class: "nav-link" %>
           </li>
           <li class="nav-item-contact">
-            <%= link_to "CONTACT", "#", class: "nav-link" %>
+            <%= link_to "MES PROJECTS", "#mesprojets", class: "nav-link" %>
           </li>
           <li class="nav-item dropdown">
             <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
@@ -109,6 +109,69 @@
           </div>
         </div>
 
+        <div class="element">
+          <div class="flex-item h2-paragraphe" id="competenceinfo">
+            compétence-informatique
+          </div>
+          <div class="trait">
+          </div>
+          <div class="competence-card-treerow">
+            <div class="competence-card">
+              <%= image_tag "icones/mac.svg", alt: "ruby", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/windows-server.svg", alt: "rails", width: 120, height: 120 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/linux.svg", alt: "html", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/figma.svg", alt: "css", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/github.svg", alt: "js", width: 80, height: 80 %>
+            </div>
+          </div>
+
+          <div class="competence-card-fourrow">
+            <div class="competence-card">
+              <%= image_tag "icones/qnap.svg", alt: "react", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/sophos.svg", alt: "redux", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/synology.svg", alt: "nodejs", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/trello.svg", alt: "bootstrap", width: 80, height: 80 %>
+            </div>
+            <div class="competence-card">
+              <%= image_tag "icones/vmware.svg", alt: "github", width: 80, height: 80 %>
+            </div>
+          </div>
+        </div>
+
+      <div class="element">
+        <div class="cv">
+          <a href="http://johnnygirault.fr/CV.pdf" download="cv_johnnygirault" target="_blank" class="cvdown"><i class="fa fa-download"></i> Télécharge mon CV papier</a>
+        </div>
+      </div>
+      <div class="element">
+        <div class="flex-item h2-paragraphe" id="mesprojets">
+            Mes Projets
+        </div>
+        <div class="trait">
+        </div>
+        <div class="projets">
+          <div>
+            <div class="flex-item h3-paragraphe" id="mesprojets-f">
+              FridgeFriends.fr
+            </div>
+            <%= image_tag "FridgeFriends.png", alt: "Fridge Friends", height: "5%", width: "18%", class: "pt-3" %>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
