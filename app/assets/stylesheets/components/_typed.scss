@@ -54,8 +54,8 @@ a {
 
   .content {
     // width: 500px;
-    min-width: 375px;
-    max-width: 500px;
+    min-width: 50vh;
+    max-width: 78vh;
     height: 300px;
     // position: absolute;
     // top: 127%;
@@ -68,7 +68,6 @@ a {
     box-sizing: border-box;
     box-shadow: 0 0 5px rgba(0, 0, 0, .5);
     border-radius: 5px 5px 0 0;
-    margin: auto;
   }
 
   .browser-bar {
