@@ -2,6 +2,62 @@
   background       : transparent;
   border-color       : #0AAEB7;
   border-width       : 0 0 1px;
-  width: 507px;
+  width: 330px;
   border-style       : solid;
+  margin-top: 0.50em;
+}
+.h2-paragraphe {
+  color: #333333;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  margin-top: 1em;
+}
+
+.h3-paragraphe {
+  color: #333333;
+  text-transform: uppercase;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  margin-bottom: 2em;
+}
+
+.text-competence {
+  min-width: 375px;
+  color: black;
+  margin-top: 2em;
+}
+
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+hr.true {
+    border: 0;
+    border-radius: 2px;
+    width: 80px;
+    color: #2ac4ea;
+    background-color: #2ac4ea;
+    height: 6px;
+    margin-left: 0;
+    display: inline-block;
+}
+
+hr.false {
+    border: 0;
+    border-radius: 4px;
+    width: 80px;
+    color: #2ac4ea;
+    background-color: rgba(42, 196, 234, 0.3);
+    height: 6px;
+    display: inline-block;
+    margin-left: 0;
 }

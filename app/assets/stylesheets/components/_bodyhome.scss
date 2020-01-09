@@ -1,0 +1,22 @@
+.margin-constraint{
+    /*On indique tout simplement une marge*/
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.useful-width{
+    /*On règle ensuite la largeur utile puis on centre*/
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-constraint, .useful-width{
+    /*Si vous utilisez uniquement des div, cette dernière règle css n'est même pas nécessaire*/
+    display: block;
+    width: auto;
+}
+.blk-competence {
+  width: auto;
+  weight: auto;
+}

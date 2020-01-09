@@ -1,48 +1,163 @@
 
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-        <%= link_to "#", class: "navbar-brand" do %>
-          <h4>Johnny Girault</h4>
-        <% end %>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto nav nav-pills nav-fill">
-            <li class="nav-item-presentation">
-              <%= link_to "PRÉSENTATION", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item-parcours">
-              <%= link_to "PARCOURS", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item-portofolio">
-              <%= link_to "PORTFOLIO", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item-contact">
-              <%= link_to "CONTACT", "#", class: "nav-link" %>
-            </li>
-            <li class="nav-item dropdown">
-              <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <%= link_to "Action", "#", class: "dropdown-item" %>
-                <%= link_to "Another action", "#", class: "dropdown-item" %>
-              </div>
-            </li>
-          </ul>
+<div class="container text-center home-container col-lg-12 col-xs-12">
+  <div class="column">
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <%= link_to "#", class: "navbar-brand" do %>
+      <h4>Johnny Girault</h4>
+      <% end %>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav nav-pills nav-fill">
+          <li class="nav-item-presentation">
+            <%= link_to "PRÉSENTATION", "#presentation", class: "nav-link" %>
+          </li>
+          <li class="nav-item-parcours">
+            <%= link_to "COMPÉTENCE-WEB", "#competenceweb", class: "nav-link" %>
+          </li>
+          <li class="nav-item-portofolio">
+            <%= link_to "COMPÉTENCE-INFORMATIQUE", "#competenceinfo", class: "nav-link" %>
+          </li>
+          <li class="nav-item-contact">
+            <%= link_to "PROJECTS", "#mesprojets", class: "nav-link" %>
+          </li>
+          <li class="nav-item dropdown">
+            <%= image_tag "johnny_id.jpg", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <%= link_to "Action", "#", class: "dropdown-item" %>
+              <%= link_to "Another action", "#", class: "dropdown-item" %>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(assets/header-bg.jpg);">
+        <div class="container">
+          <h1>Johnny Girault</h1>
+          <p>Developpeur Full Stack.</p>
         </div>
-
+      </div>
+      <div class="flex-item h2-paragraphe" id="presentation">
+        présentation
+      </div>
+      <div class="trait">
       </div>
 
-      <div>
-        <%= image_tag "header-bg.jpg", class: "img-fluid", id: "header-bg-id" %>
+      <div class="conteneur">
+        <div class="element">
+          <div class="content">
+            <div class="browser-bar">
+              <span class="close button"></span>
+              <span class="min button"></span>
+              <span class="max button"></span>
+            </div>
+            <div class="text">
+              <p>
+                <span id="banner-typed-text"></span>
+              </p>
+            </div>
+            </div>
+          </div>
+
+          <div class="element">
+            <div class="flex-item h2-paragraphe" id="competenceweb">
+              compétence-web
+            </div>
+            <div class="trait">
+            </div>
+
+            <div class="text-competence">
+              <p>HTML5 - CSS3</p>
+              <hr class="true">
+              <hr class="true">
+              <hr class="true">
+              <hr class="true">
+              <p>Javascript - jQuery - React</p>
+              <hr class="true">
+              <hr class="true">
+              <hr class="false">
+              <hr class="false">
+              <p>MySQL</p>
+              <hr class="true">
+              <hr class="true">
+              <hr class="true">
+              <hr class="false">
+              <p>Ruby on rails</p>
+              <hr class="true">
+              <hr class="true">
+              <hr class="true">
+              <hr class="true">
+            </div>
+          </div>
+          <div class="element">
+            <div class="flex-item h2-paragraphe" id="competenceinfo">
+              compétence-informatique
+            </div>
+            <div class="trait">
+            </div>
+            <div class="competence-card-treerow">
+              <div class="competence-card">
+                <%= image_tag "icones/mac.svg", alt: "mac" %>
+              </div>
+              <div class="competence-card">
+                <%= image_tag "icones/linux.svg", alt: "linux" %>
+              </div>
+              <div class="competence-card">
+                <%= image_tag "icones/figma.svg", alt: "figma" %>
+              </div>
+              <div class="competence-card">
+                <%= image_tag "icones/github.svg", alt: "github" %>
+              </div>
+            </div>
+
+            <div class="competence-card-fourrow">
+              <div class="competence-card">
+                <%= image_tag "icones/qnap.svg", alt: "qnap", width: 80, height: 80 %>
+              </div>
+              <div class="competence-card">
+                <%= image_tag "icones/synology.svg", alt: "synology", width: 80, height: 80 %>
+              </div>
+              <div class="competence-card">
+                <%= image_tag "icones/windows-server.svg", alt: "windows server", width: 80, height: 80 %>
+              </div>
+              <div class="competence-card">
+                <%= image_tag "icones/vmware.svg", alt: "vmware", width: 80, height: 80 %>
+              </div>
+            </div>
+          </div>
+
+        <div class="element">
+          <div class="cv">
+            <a href="http://johnnygirault.fr/CV.pdf" download="cv_johnnygirault" target="_blank" class="cvdown"><i class="fa fa-download"></i> Télécharge mon CV papier</a>
+          </div>
+        </div>
+        <div class="element">
+          <div class="flex-item h2-paragraphe" id="mesprojets">
+              Mes Projets
+          </div>
+          <div class="trait">
+          </div>
+          <div class="projet">
+            <div class="img-fridgefriends">
+              <%= image_tag "FridgeFriends.png", alt: "Fridge Friends", height: "5%", width: "18%", class: "pt-3" %>
+
+              <div class="font-projets">
+                <div class="flex-item h3-paragraphe" id="mesprojets-f">
+                  FridgeFriends.fr
+                </div>
+                  <p>Ne jette plus ta nourriture, donne-la !</p>
+                  <p>L'application Fridge Friends organise pour toi</p>
+                  <p>le don de nourriture.</p>
+                  <p>Au lieu de la jeter, propose à </p>
+                  <p>tes proches de les récupérer gratuitement !</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <h2>test</h2>
-      <div class="trait"></div>
     </div>
   </div>
 </div>
+
+
