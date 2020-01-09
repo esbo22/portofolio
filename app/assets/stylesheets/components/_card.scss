@@ -1,21 +1,38 @@
 .competence-card {
   display: flex;
   flex-direction: row;
-  margin-top: 2em;
-  margin-right: 2em;
-  margin-left: 2em;
-  margin-bottom: 3em;
+  // margin-top: 2em;
+  // margin-right: 2em;
+  // margin-left: 2em;
+  // margin-bottom: 3em;
+  margin: auto;
 }
 
 .competence-card-firstrow {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .competence-card-tworow {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.competence-card-treerow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+.competence-card-fourrow {
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  padding: 40px;
+  justify-content: space-around;
 }
 
