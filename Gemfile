@@ -38,7 +38,7 @@ gem 'autoprefixer-rails'
 gem 'webpacker'
 gem 'jquery'
 gem 'popper'
-gem 'actionpack', '~> 5.0', '>= 5.0.0.1'
+gem 'actionpack', '~> 5.0', '>= 5.2.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
