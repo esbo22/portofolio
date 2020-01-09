@@ -3,7 +3,9 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.2.2",
+    "actionpack": "^0.0.4",
     "bootstrap": "^4.4.1",
+    "lockfile": "^1.0.4",
     "typed.js": "^2.0.11"
   },
   "devDependencies": {
