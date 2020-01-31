@@ -6,6 +6,43 @@
   border-style       : solid;
   margin-top: 0.50em;
 }
+
+#trait-presentation {
+  background       : transparent;
+  border-color       : #0AAEB7;
+  border-width       : 0 0 1px;
+  width: 290px;
+  border-style       : solid;
+  margin-top: 0.50em;
+}
+
+#trait-competenceweb {
+  background       : transparent;
+  border-color       : #0AAEB7;
+  border-width       : 0 0 1px;
+  width: 350px;
+  border-style       : solid;
+  margin-top: 0.50em;
+}
+
+#trait-competenceinfo {
+  background       : transparent;
+  border-color       : #0AAEB7;
+  border-width       : 0 0 1px;
+  width: 550px;
+  border-style       : solid;
+  margin-top: 0.50em;
+}
+
+#trait-mesprojets {
+  background       : transparent;
+  border-color       : #0AAEB7;
+  border-width       : 0 0 1px;
+  width: 250px;
+  border-style       : solid;
+  margin-top: 0.50em;
+}
+
 .h2-paragraphe {
   color: #333333;
   text-transform: uppercase;
@@ -14,6 +51,7 @@
   font-size: 36px;
   line-height: 1.1;
   margin-top: 1em;
+  text-shadow: 0px 0px 2px rgba(63, 63, 63, 1);
 }
 
 .h3-paragraphe {
