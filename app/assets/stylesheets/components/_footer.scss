@@ -1,7 +1,6 @@
 .footer {
   background-color: black;
   color: white;
-  position: fixed;
   width: 100vw;
   height: 80px;
   bottom: 0px;
@@ -9,5 +8,24 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  z-index: 999;
+
+}
+
+@media (max-width: 600px) {
+  .footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .footer-links {
+    width: 30%;
+  }
 }
